@@ -15,7 +15,7 @@ If you want to run the `scrape.py` file locally, explore the data further and ma
 * Python (Anaconda is best for data exploration)
 * Git (if you want to directly clone the repo)
 * VsCode (with the jupyter extension)
-* Chromedriver (same version as your current browser's)
+* Chromedriver (same version as your browser's)
 
 ## Setup
 If you have Python/Anaconda, Git and VsCode (including the jupyter extension) installed, we can start to...
