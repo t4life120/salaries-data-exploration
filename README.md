@@ -41,4 +41,6 @@ pip install selenium
 After that just run `python scrape.py` and as soon as the scraping is finished, you will have a new `.csv` file with the newest data.
 
 ## Use Jupyter Notebook
-In the `old_salaries_exploration.ipynb` you can find useful commands and pandas methods that will help you to explore the new data. Make sure you have the Jupyter Notebook extension installed and maybe you have to change to or choose the right python kernel (python conda if you use anaconda). You can `Ctrl+Shft+P`, enter `Python: Select Interpreter` and then choose the right interpreter ('base').
+In the `old_salaries_exploration.ipynb` you can find useful commands and pandas methods that will help you to explore the new data. Make sure you have the Jupyter Notebook extension installed and maybe you have to change to or choose the right python kernel. You can `Ctrl+Shft+P`, enter `Python: Select Interpreter` and then choose the right interpreter ('base' if you use conda).
+
+After you have setup a new jupyter notebook, you will merely need to change the `.read_csv` to input the new data instead of the old one and be aware that the column names are different.
